@@ -25,25 +25,25 @@ nav {
 
 }
 
-header .header-img {
+header .nav-img {
     max-width: 139px;
     vertical-align: middle;
 }
 
-nav .menu {
+nav .nav-menu {
     display: flex;
     list-style-type: none;
     gap: 32px;
     align-items: center;
 }
 
-nav .menu a {
+nav .nav-menu a {
     font-size: 16px;
     color: #000000;
     text-decoration: none;
 }
 
-.btn {
+.nav-btn {
     background-color: #30b868;
     border: none;
     padding: 12.5px 16px;
@@ -51,4 +51,110 @@ nav .menu a {
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
+}
+
+
+.banner {
+    background-image: url(images/logo-section.png);
+    max-width: 1600px;
+    height: 674px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sec-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.Early-access {
+    max-width: 229px;
+    margin-top: 115.5px;
+    background-color: #ffffff;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    color: #276941;
+    font-weight: 500;
+    gap: 6px;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background-color: #30b868;
+    border-radius: 8px;
+    box-shadow: 0 0 8px;
+
+
+
+}
+
+.head-txt-one {
+    font-size: 72px;
+    color: #ffffff;
+    margin-top: 16px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.head-txt-two {
+    font-size: 72px;
+    color: #30b868;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.txt-one {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 16px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.section-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.sec-first-btn {
+    max-width: 251px;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    background-color: #30b868;
+    max-height: 52px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+
+}
+
+.sec-second-btn {
+
+    max-width: 198px;
+    max-height: 52px;
+    border-radius: 4px;
+    border: 1px solid;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+    padding: 12px 16px;
+
 }
