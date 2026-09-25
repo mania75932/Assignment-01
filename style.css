@@ -158,3 +158,69 @@ nav .nav-menu a {
     padding: 12px 16px;
 
 }
+
+.section-container h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #001931;
+
+
+}
+
+.section-container p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #627382;
+}
+
+#Notes {
+    max-width: 1600px;
+    max-height: 448px;
+    padding: 120px 120px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 44px;
+}
+
+.Notes-box {
+    background-color: #ffffff;
+    max-width: 1360px;
+    max-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    gap: 16px;
+
+
+}
+
+.Notes-card img {
+    max-width: 32px;
+    max-height: 32px;
+    background-color: #F95555;
+    margin-top: 69.5px;
+    border-radius: 8px;
+
+
+}
+
+.Notes-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #001931;
+    margin: 16px 24px;
+
+}
+
+.Notes-card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+
+}
