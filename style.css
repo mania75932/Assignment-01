@@ -177,7 +177,7 @@ nav .nav-menu a {
 
 #Notes {
     max-width: 1600px;
-    max-height: 448px;
+    max-height: 674px;
     padding: 120px 120px 120px;
     display: flex;
     align-items: center;
@@ -223,4 +223,82 @@ nav .nav-menu a {
     color: #627382;
     line-height: 20px;
 
+}
+
+.brain {
+    max-width: 1360px;
+    max-height: 840px;
+    padding: 120px 0px;
+    gap: 40px;
+    background-color: #ffffff;
+}
+
+.brain-section {
+    max-width: 1360px;
+    max-height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+
+.brain-img {
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 12px;
+}
+
+.brain-text {
+    max-width: 700px;
+    max-height: 396px;
+    gap: 40px;
+    margin: 20px 0px;
+}
+
+.brain-first-text {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #30b868;
+    margin-bottom: 16px;
+}
+
+.brain-heading-text {
+    font-size: 48px;
+    max-width: 700px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+
+}
+
+.brain-second-text {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 40px;
+    max-width: 700px;
+
+}
+
+.section-list {
+    max-width: 700px;
+    max-height: 128px;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.list-txt {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #001931;
+    text-decoration: none;
+
+}
+
+.section-list .list-txt img {
+    max-width: 20px;
+    max-height: 20px;
 }
