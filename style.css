@@ -302,3 +302,57 @@ nav .nav-menu a {
     max-width: 20px;
     max-height: 20px;
 }
+
+.early-access-section {
+
+    max-width: 1600px;
+    max-height: 506px;
+    padding: 2px 120px 120px 120px;
+    gap: 40px;
+    text-align: center;
+
+}
+
+.early-access-body {
+    max-width: 1360;
+    max-height: 384px;
+    padding: 80px 40px 80px 40px;
+    gap: 24px;
+
+}
+
+.Early-access-body h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.Early-access-body p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    color: #627382;
+}
+
+.Early-access-body button {
+    max-width: 194px;
+    max-height: 52px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #30b868;
+    color: #ffffff;
+    padding: 12px 16px;
+    gap: 10px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.last-txt {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 80px;
+    color: #627382;
+    line-height: 20px;
+
+}
